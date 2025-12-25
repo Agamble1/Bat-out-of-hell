@@ -1,0 +1,15 @@
+# BAT Scanner - Python Dependencies
+
+# Core dependencies
+pyyaml>=6.0
+
+# Optional dependencies for enhanced functionality
+# Uncomment these to enable advanced features:
+# 
+# requests>=2.28.0  # For HTTP requests in web vulnerability scanning
+# python-nmap>=0.7.1  # For advanced port scanning (requires nmap installed)
+# beautifulsoup4>=4.11.0  # For HTML parsing in web scanning
+# cryptography>=38.0.0  # For SSL/TLS analysis
+#
+# Note: The current implementation provides core infrastructure.
+# Optional dependencies enable additional scanning capabilities.
