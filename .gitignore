@@ -24,11 +24,10 @@ ENV/
 logs/
 *.log
 
-# Reports
-reports/
-*.json
-*.html
-*.txt
+# Generated Reports (exclude actual reports but allow config files)
+reports/*.json
+reports/*.html
+reports/*.txt
 
 # OS
 .DS_Store
