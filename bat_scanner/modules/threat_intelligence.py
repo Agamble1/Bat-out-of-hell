@@ -4,7 +4,6 @@ Checks targets against threat intelligence databases and indicators of compromis
 """
 from typing import Dict, Any, List
 from bat_scanner.core.base_module import BaseScannerModule
-import hashlib
 
 
 class ThreatIntelligence(BaseScannerModule):
